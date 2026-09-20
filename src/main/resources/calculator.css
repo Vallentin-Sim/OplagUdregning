@@ -1,0 +1,70 @@
+.calculator-grid {
+    -fx-background-color: #f7f8fa;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.title-text {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #1f2933;
+}
+
+.title-bar {
+    -fx-alignment: center-left;
+}
+
+.label-text {
+    -fx-font-size: 14px;
+    -fx-fill: #1f2933;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #c9d1dc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-padding: 7px 9px;
+}
+
+.result-field {
+    -fx-background-color: #eef1f5;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-padding: 7px 10px;
+    -fx-cursor: hand;
+}
+
+.mode-button {
+    -fx-background-color: #e6ebf2;
+    -fx-text-fill: #1f2933;
+}
+
+.mode-button:hover {
+    -fx-background-color: #d8e0eb;
+}
+
+.language-button {
+    -fx-background-color: #e6ebf2;
+    -fx-font-size: 16px;
+    -fx-padding: 4px;
+}
+
+.language-button:hover {
+    -fx-background-color: #d8e0eb;
+}
+
+.primary-button {
+    -fx-background-color: #2f80ed;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1f6fd3;
+}
